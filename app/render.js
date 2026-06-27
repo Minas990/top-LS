@@ -1,6 +1,7 @@
 'use strict';
 
-
+// Stable color palette, cycled by index — matches the look of the
+// reference screenshot (colored dots + a single segmented top bar).
 const PALETTE = [
   '#f34b7d', '#3178c6', '#f1e05a', '#8c8c8c', '#e34c26',
   '#563d7c', '#3572A5', '#dea584', '#b07219', '#701516',
@@ -13,7 +14,7 @@ const BAR_HEIGHT = 14;
 const ROW_HEIGHT = 24;
 const COLS = 3;
 const PADDING = 24;
-const MIN_SEGMENT_WIDTH = 4;
+const MIN_SEGMENT_WIDTH = 4; 
 
 function escapeXml(str) {
   return str
